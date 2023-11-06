@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="3" preserve-order="true" name="ApiAutomationNew"><classes>
+        <class name="org.example.curd.INT.TC_Integration">
+<!--            <methods><include name="PostRequest"/>-->
+<!--            </methods>-->
+        </class>
+    </classes>
+        <groups>
+            <run>
+                <include name="P0"></include>
+            </run>
+
+
+        </groups>
+    </test>
+</suite>
